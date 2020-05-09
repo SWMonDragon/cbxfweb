@@ -1,0 +1,186 @@
+@import  "../../calbox.scss";
+
+.bluebgCalbox {
+    @include bluebgCalbox
+}
+.greenbgCalbox {
+    @include greenbgCalbox
+}
+.btn-primary {
+   @include btnyellow
+}
+.linkgreen{
+    @include linkgreen
+}
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    .navbar-brand {
+        color: #fff;
+      }
+      .navbar-nav {
+        margin-top: 1rem;
+        li{
+            &.nav-item {
+                font-size: 14px;
+                a.nav-link {
+                    color: #fff;
+                    &:hover {
+                        color: #8BC53F;
+                      }
+                      &:active, &:focus{
+                        color: #fff;
+                      }
+                      &.active{
+                          color: #000;
+                          #avocadosvg{
+                            fill: #000;
+                          }
+                      }
+                  }
+            }
+        }
+      }
+      .navbar-toggler {
+        font-size: 80%;
+        padding: 0.8rem;
+      }
+      .access {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+    .main-link{
+        position: relative;
+        #avocadosvg {
+        position: absolute;
+        width: 24px;
+        left: -12px;
+        top: 9px;
+        fill: #fff;
+        }
+    }
+    .search{
+        display: flex;
+        margin: auto;
+        position: relative;
+        form{
+            position: relative;
+            width: 280px;
+        }
+        input{
+            display: flex;
+            margin: auto;
+            border-radius: 20px;
+            border: 0;
+            position: relative;
+            height: 43px;
+            &::placeholder{
+                color: #999999;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            
+        }
+        .nav-input {
+            position: absolute;
+            right: -2px;
+            top: 0;
+            width: 55px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            z-index: 9;
+            background-color: #408148;
+            height: 44px;
+            background-image: url(../../assets/searchfa.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+  }
+
+
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 0;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+      margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #000;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      color: #000;
+    }
+  
+    #mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+    }
+  }  
+
+.logo {
+    display: flex;
+    img{
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #mainNav {
+        .search{
+            input{
+                height: 34px;
+            }
+            form{
+                width: 100%;
+            }
+            .nav-input{
+                height: 35px;
+                background-size: 20px;
+            }   
+        }
+        .logo {
+            img  {
+                max-width: 210px;
+                margin-top: 1rem;
+            }
+        }
+        .navbar-toggler{
+            background-color: transparent !important;
+            top: 0;
+            position: absolute;
+            right: 30px;
+            font-size: 25px;
+            color: #408148!important;
+        }
+        .navbar-nav{
+            li{
+                &.nav-item {
+                    font-size: 12px;
+                    a.nav-link {
+                        text-indent: 1rem;
+                }
+        }
+            }
+        }
+        .navbar-collapse{
+          padding: 1rem;
+        }
+}
+}
