@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="117" viewBox="0 0 77 117">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 44 67">
+      <image width="44" height="67" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAABDCAYAAADnJueOAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAALKADAAQAAAABAAAAQwAAAADExCUFAAAFFklEQVRoBdXYiXajOBCF4c7s+8z7P+XseydTn8JNCyzb2AGPU+eUJYRAP5eSVPjh6enp3Vuyj94SLNY3B/zJGoUfypb9KpT+l1g6CtxB9rDqDTTPcGvwIfAEC653Ir8AT+CPtwY/AO5gxXccaB/vj3XMtSufgN9C7QPgCSKAH9exPkoeA/m+/N+pVG9q7w09A57UrbGbmgA/7VzfqAzwn849IPjdoWfANSAzeBR2/vPJP6sy/QH/Xf5X+Z/l+jPt7/cMjwC00aafwCYcgH5Z/kU5xZ0XEmBdnziv6ovtBj0CzqjAemjAXBtgynsAx1FYSXm2C/Qp4OdhP4QHuEA6px6FgQbaud2gR8A2hjgleXY1UFFVO3WFxBK4mvaBHgEbDCAgk8jsz4rg2DmQUTfA1XRgmys9Al7C9quBCRiFqaveh8IBcTVsCj0DtuhbkspAU5OywCxdyoRAVgbA/JxtBj0DNuoEHZWFg8ESowHtw+Cm0AfAoMsCrE5lFuhRCNwMegjchUYmXoAb+ZGfm0APgQF10GKZJQ6fj8a/u0MfBcZzj9Ange8R+izwvUGvAr4n6NXAO0NbRtsQ9XPyI+Ai4HbHmonTbnjN6rFcwwPaaKefk18uFwNfCQ3UWNzHwAgc/NKraW5XAbvFhUseQKDGk0CtAX5Xb/LRONX/xa4GdoeV0OD6HMTmIvnv8xE7anZVoZZj124HXDc7BW2wwCbTy06oJBZoBrLPu9UbeKn80Kv8KoWNxAZKS5h62KiqPd+FeQgKas8XuFRWGpA3sK3CdeNmHXRebVJTsABAZWUBq12pLV/l+SshsB56ZpsoPLvjc8xRBbiyr+sKIsD6JDywaAcb4KrObQ9gQAmHDA4k3oOhOQrn5NJ03sRMjrpRQKOgV5z/M5T5m8B5fakvJHrPCuHcgW0C3MECoSBQcF+Vf13+zVSKVSFgXGBiO5NNKc7bTldlwqmqH+zVITGABUTNgH5XdQ5auzHBArMi/Fb+e/kf5YGmuD4H9iqFj8BSkbLfln9fDlZdW3Y5sAB/Lf9lctAeIKsJYIvPLDSuVvgMbFQNMLWzu0VZsD9Prk7pHngYElcpvBL2hwLoQ0F8e9WgAP40OWjHFBfTHqiFxFLdam/Br1xtG8GCDDBY4dDH7ywMeriLFN4Q9scJWPwmFKibyXYQu4FeDbwxLIXBLica4KOwoFcB7wALOEtZ1t6zsKuA7wn2LPC9wZ4EvkfYo8AL2CQyttXsYNbXc+usOLUaKK+O2bp2ZgeTroN1DmwyLrtVttvsYMkPlpvCLrDID4A1lkn9QCTzkh8EONvuzWGLYQ48UFfmJQcADJDCvM8NLEfZbndTtsZoNkp+lkl4gMUvB5+sC6wt1fa6O2yN0V65sjfAgU5IgOZAhYq9XpJiO7W1gpUbKPlVm0Jdd9ZGCrsowGI8ky/xTtXs+zIsW2yAs91qv2gHq/6rbAkMdGT5QgAaU6ckyPhuymbQJXCf1qn3oCYWE7PalQDFr7BI1rWLsnX/ZktgjQHtYb1iRlWhkcmmPZ6vhSTgJ7Ouuu4qGwG7EWhQ1IqyQNLfw4CnMlfnruG7wNZ9XwDUY1EYYGI6gJl4Ud8D9SGwKyzAKKbe/6kHCCyYqA22fwB9oqjS8W7K1r2b+Ssz9ZdyseMFNOrq56K8iQbqmDm5pw2BDdhBR9WU4Ql0g7wFbOM6JcoEHcDWv35mKt4KNBBHFU6Heyv7uLw3tiHPmwP+D70bHhgeWtT+AAAAAElFTkSuQmCC"/>
+    </pattern>
+  </defs>
+  <g id="Group_85" data-name="Group 85" transform="translate(-0.007 0.304)">
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="77" height="117" transform="translate(0.007 -0.304)" opacity="0.33" fill="url(#pattern)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <g id="Group_84" data-name="Group 84" transform="translate(13.619 19.765)">
+      <g id="Group_83" data-name="Group 83">
+        <line id="Line_9" data-name="Line 9" y1="39.908" x2="39.908" transform="translate(0 40.795)" fill="none" stroke="#00973a" stroke-miterlimit="10" stroke-width="3"/>
+        <line id="Line_10" data-name="Line 10" x1="39.908" y1="39.908" fill="none" stroke="#00973a" stroke-miterlimit="10" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
